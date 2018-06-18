@@ -17,13 +17,13 @@ get_header();?>
 				<span><?php the_field('headline_line_2');?></span>
 				<span class="red"><?php the_field('headline_line_3');?></span>
                 </h1>
-
-                <p> <?php the_field('tagline_bold');?></strong> <?php the_field('tagline_regular');?></p>
 				
 				<div class="video-container">
 					<iframe src="https://player.vimeo.com/video/<?php the_field('hero_video_id');?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
-				
+
+                <p> <?php the_field('tagline_bold');?></strong> <?php the_field('tagline_regular');?></p>
+								
 				<section class="countdown">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
 						<?php the_content();?>
