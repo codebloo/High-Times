@@ -1818,6 +1818,419 @@ nav .row{	position:relative;}
  * # home
  *
  * ------------------------------------------------------------------- */
+
+/* FOOTER 
+**********************************/	
+	footer{
+	    background: #111;
+		padding-top: 40px;
+		position: relative;
+	    width: 100%;}
+	
+	.footer_logo {
+	   line-height: 0;
+		margin-bottom: 30px;
+	    text-align: center;}
+		
+	.footer_logo img{
+		display:block;
+		margin:0 auto;}
+	
+	footer ul{margin-left:0;}
+	footer ul li { display: inline-block;}	
+	footer ul li:first-child, 
+	footer li:first-child a {margin-left: 0;}
+	
+/* Social Media List */
+	
+	ul.footer_social {
+		margin-bottom: 30px;
+		 text-align: center;}
+		 
+/* Slider */		 
+		 .owl-controls{width:100%;}
+		 .owl-arrow{
+		 	 position: absolute;
+		 	 top: 45%;
+		  	z-index:1;}
+		 	.owl-prev{left: 0;} 
+		 	.owl-next{right: 0;} 	
+
+		
+/* Footer Nav */
+.footer_nav ul{
+	margin-bottom:40px;
+	text-align:center;}
+	
+.footer_nav  ul li {margin: 0 0 10px 20px;}	
+.footer_nav ul li a {
+		    color: #888;
+			font-family: 'Montserrat', sans-serif;
+		    font-size: .9rem;
+		    font-weight: 400;
+		    line-height: 1;
+		    text-transform: uppercase;}
+
+.footer_nav ul li a:hover,
+.footer_nav ul li a:active{color:#fff;}
+	
+/*Copyright */
+	
+.footer_bottom{
+	    background: #000;
+	    padding: 20px 0;
+		text-align: center;}	
+
+.footer_bottom p {
+    color: #777;
+	font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#mvp-fly-soc-wrap span{
+	color:#555;
+    display: block;
+	font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+	text-align:center;
+    text-transform: uppercase;}
+#responsive-menu-additional-content .social_links {text-align:center;}
+#responsive-menu-additional-content .social_links li a{line-height:40px;}	
+
+/* FAQ */
+#faq ul{
+	border-top:none;
+	list-style-type:none;
+	
+}	
+.question{
+	background-color:#333;
+	border-top:1px solid #444;
+	clear:both;
+	color:#f1f1f1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:300;
+	margin:0;
+	padding: 10px;
+	text-transform:uppercase;}
+	.question i{color:#f1f1f1;}
+	.question.expanded,
+	.question.expanded i{color:#ed1c24;}
+	.question.expanded{background-color:#fff;}
+	.question.expanded i{transform: rotate(90deg);}
+
+.answer{
+	background-color:#fff;
+	border-top:1px solid #f1f1f1;
+	color:#8e97ac;
+	padding: 20px 20px 20px 30px;}
+	
+/* RED CTA  */
+	.red_cta{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed1c24+0,bf151b+100 */
+		background: #ed1c24; /* Old browsers */
+		background: -moz-linear-gradient(left, #ed1c24 0%, #bf151b 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, #ed1c24 0%,#bf151b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, #ed1c24 0%,#bf151b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1c24', endColorstr='#bf151b',GradientType=1 ); /* IE6-9 */
+		color:#fff;
+	}
+			
+	.red_cta .display-1{
+		margin-bottom:0;
+		text-align:center;}
+	.red_cta .display-1 a{
+		color:#fff;
+		cursor:pointer;
+		display:block;
+		width:100%;
+	}
+		.red_cta .display-1 a img{display:inline-block;}
+	
+	#perks .services-list .service-item h3{color: #ed1c24;}
+	#perks .perk_name{
+		font-weight:700;
+		margin-bottom:0;}
+		#perks .services-list .service-icon{color:#222;}
+		
+	/* Count Down */
+	
+	.countdown .icp-countdown{margin:0 0 0 7rem;}	
+	/* FORMS 
+	**********************************/		
+
+	button,
+	.button{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,c20f16+100 */
+		background: #cc0000; /* Old browsers */
+		background: -moz-linear-gradient(top, #cc0000 0%, #c20f16 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #cc0000 0%,#c20f16 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #cc0000 0%,#c20f16 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#c20f16',GradientType=0 ); /* IE6-9 */
+	    color: #fff;
+		display: inline-block;
+	    border: 1px solid #c20f16;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    border-radius: 0px;
+		font-family: 'Montserrat', sans-serif;
+	    font-weight: bold;
+	    font-size: 1.1em;
+		padding: 0px 0px 0px 0px;
+		text-align:center;
+	    text-decoration: none;
+		text-transform: uppercase;
+		width: 7em;}
+		.prev_button{
+			background:#fff;
+			border:2px solid #ed1c24;
+			color:#ed1c24;}
+			.button.payment_method{
+				background:#fff;
+				border:2px solid #ed1c24;
+				color:#ed1c24;
+				width:100%;}
+
+	.form_buttons{
+		clear:both;
+		margin-bottom:30px;}	
+	
+		div[data-toggle="toggle"] {
+		  width: 50px !important;
+		  border-radius: 11px; }
+		  div[data-toggle="toggle"].btn-primary {
+		    text-shadow: 0 1px 0 #fff;
+		    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		    background-repeat: repeat-x;
+		    color: #333;
+		    background-color: #fff;
+		    border-color: #ccc; }
+		  div[data-toggle="toggle"].btn-primary:hover {
+		    border-color: #b0b0b0 !important; }
+		    div[data-toggle="toggle"].btn-primary:hover .toggle-group .btn-primary.toggle-on {
+		      background: #6de6d3;
+		      /* Old browsers */
+		      background: -moz-linear-gradient(left, #6de6d3 0%, #6bd2bf 100%);
+		      background: -webkit-linear-gradient(left, #6de6d3 0%, #6bd2bf 100%);
+		      background: linear-gradient(to right, #6de6d3 0%, #6bd2bf 100%);
+		      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6de6d3", endColorstr="#6bd2bf", GradientType=1); }
+		  div[data-toggle="toggle"] label.btn-default.active, div[data-toggle="toggle"] label.btn.active, div[data-toggle="toggle"] label.btn:active {
+		    text-shadow: none;
+		    -webkit-box-shadow: none !important;
+		    box-shadow: none !important;
+		    border: none; }
+		  div[data-toggle="toggle"] .toggle-group label.btn {
+		    font-size: 9px !important;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    padding-top: 3px;
+		    text-shadow: none;
+		    color: #666; }
+		    div[data-toggle="toggle"] .toggle-group label.btn.toggle-on {
+		      padding-left: 0;
+		      margin-left: -4px; }
+		    div[data-toggle="toggle"] .toggle-group label.btn.toggle-off {
+		      padding-right: 0;
+		      margin-right: -4px; }
+		  div[data-toggle="toggle"] .toggle-group span.toggle-handle {
+		    border-radius: 11px;
+		    width: 40px; }
+		    div[data-toggle="toggle"] .toggle-group span.toggle-handle.btn-default {
+		      border: none; }
+		  div[data-toggle="toggle"] .toggle-group .btn-primary.toggle-on {
+		    background: #6be0cd;
+		    /* Old browsers */
+		    background: -moz-linear-gradient(left, #6be0cd 0%, #66ccb9 100%);
+		    background: -webkit-linear-gradient(left, #6be0cd 0%, #66ccb9 100%);
+		    background: linear-gradient(to right, #6be0cd 0%, #66ccb9 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6be0cd", endColorstr="#66ccb9", GradientType=1); }
+
+
+	.tooltip {
+	    position: relative;
+	    display: inline-block;
+	    opacity: 1;
+	}
+	.tooltip i{
+		background-color:#ec1c24;
+		-moz-border-radius:50%;
+		-webkit-border-radius:50%;
+		border-radius:50%;
+		color:#fff;
+		display:inline-block;
+		height:20px;
+		line-height:20px;
+		text-align:center;
+		width:20px;}	
+	.tooltip_container{
+	    display: none;
+	    position: absolute;
+	    left: 0;
+	    width: 16px;
+	    z-index: 9999;
+	}	
+
+	.tooltip_content{
+		background:#efefef;
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		color:#222;
+	    font-size: 14px;
+	    line-height: 21px;
+		padding:10px;
+		    min-width: 440px;}
+	.tooltip_content p{
+	    font-size: 14px;
+	    line-height: 21px;}
+	.tooltip_content ul{
+		list-style-type:disc;
+		margin-bottom:20px;
+		margin-left:10px;
+		margin--moz-border-radiustop:20px;}
+	.tooltip_content ul li{margin-left:10px;}	
+
+		/* Step 1 */
+
+
+		.register_new_user h2.create_title{margin-bottom:0;}	
+		.login_link{color:#ec1c24;}
+		.already_registered{padding-bottom:5px;}
+		.small{font-size:0.9rem}
+
+		.register_new_user label{
+			display:block;
+			font-weight:700;}
+			.register_new_user input[type=text],
+			.register_new_user input[type=password],
+			.register_new_user input[type=email],
+			.register_new_user select{
+				height:34px;
+				width:100%;}
+
+		.register_new_user .row{margin-bottom:20px;}		
+		.entity_type label{font-weight:400;}
+		.entity_phone,
+		.citizen_check{
+			border-bottom:1px solid #ddd;
+			padding-bottom:20px;}
+		.legal_disclaimer p{font-weight:bold;}	
+		.entity_type input{margin-right:10px;}
+		.register_new_user .please_confirm .row{margin-bottom:0;}
+
+	
+		/* Step 2 */
+
+			.form_agreement label{
+				display:block;
+				font-weight:700;}
+				.form_agreement th{text-align:left;}
+	
+			.auto_populate{
+				background:#dedede;
+				clear:both;
+				float:left;
+				margin-bottom:10px;
+				padding:10px 50px 30px 30px;}	
+			.auto_populate h4{margin:20px 0 0 0;}	
+	
+			.agreement_sign,	
+			.agreement_actions{
+				clear:both;
+				margin-bottom:30px;}	
+		
+			    @font-face {
+			      font-family: 'Sacramento';
+			      font-style: normal;
+			      font-weight: 400;
+			      src: local('Sacramento'), local('Sacramento-Regular'), url('https://s3.amazonaws.com/fundamerica/files/fonts/Sacramento.ttf') format('truetype');}
+
+			    .fa__signature { margin-top: 2em;}
+			    .fa__signature h1 { font-size: 1.25em; font-weight: bold; }
+			    .fa__signature h1:after { content: ":"; }
+			    .fa__signature h2 { font-size: 1em; font-weight: bold; }
+			    .fa__signature .fa__signature_data { border: 0; }
+			    .fa__signature .fa__signature_data th { border: 0; font-weight: bold; text-align: left; }
+			    .fa__signature .fa__signature_data th:after { content: ":"; }
+			    .fa__signature .fa__signature_data td { border: 0; font-weight: normal; text-align: left; vertical-align: bottom;}
+			    .fa__signature .fa__signed { font-family: 'Sacramento', cursive, fantasy; font-size: 2em; margin-top: 1em; text-decoration: underline; }
+			    .fa__signature .fa__blank_signature_data th, .fa__signature .fa__blank_signature_data td { padding-bottom: 1.5em }
+			    .fa__signature .fa__blank_signature_data td { padding-left: 1em }	
+				.form_agreement input[type=text],
+				.form_agreement select{
+					height:34px;
+					width:80%;}
+			
+				.form_agreement .btn-group button{
+					background-color:#fff;
+					border:1px solid #ed1c24;
+					color:#ed1c24;
+					margin-right:10px;
+					padding:0 10px;
+					min-width:7em;
+					width:auto;}	
+				.form_agreement .btn-group button:first-child{display:none;}
+				.form_agreement .btn-group button.active{
+					background-color:#ed1c24;
+					color:#fff;}	
+	
+		/* Step 3 */
+
+		.payment_forms label{
+			display:block;
+			font-weight:700;}
+		.payment_forms input[type=text]{
+			height:34px;
+			width:100%;}
+		.payment_forms .row{margin-bottom:20px;}	
+		.ach_form .radio{
+			display: inline-block;
+		    margin-right: 10px;
+			position:relative;}
+		.bank_success,
+		.bank_success i{color:green;}	
+	
+		/* Step 4 */
+			.success_message a{color:#ec1c24;}
+			.success_details{
+				border-bottom:1px solid #dedede;
+				border-top:1px solid #dedede;
+				margin-bottom:1.5em;
+				padding-bottom: 1.5em;}
+				.success_details ul {margin-left: 0;}
+			.success_details ul li{margin-bottom:12px;}	
+			.success_details label{
+				font-weight:700;
+			    margin-bottom: 0;
+			    line-height: 1;
+			}	
+			.checkbox label,
+			.radio label {
+			    min-height: 20px;
+			    padding-left: 20px;
+			    margin-bottom: 0;
+			    font-weight: 400;
+			    cursor: pointer;}
+	
+			.checkbox input[type=checkbox], 
+			.checkbox-inline input[type=checkbox], 
+			.radio input[type=radio], 
+			.radio-inline input[type=radio] {
+			    position: absolute;
+			    margin-top: 4px;
+			    margin-left: -20px;}	
+		
+		/* WIRE Success */		
+		.recipient_address span,
+		.bank_address span{display:block;}		
+
+
 .s-home {
   width: 100%;
   height: 100%;
@@ -3566,416 +3979,7 @@ html.no-csstransitions .home-content__main {
   }
 }
 
-/* FOOTER 
-**********************************/	
-	footer{
-	    background: #111;
-		padding-top: 40px;
-		position: relative;
-	    width: 100%;}
 	
-	.footer_logo {
-	   line-height: 0;
-		margin-bottom: 30px;
-	    text-align: center;}
-		
-	.footer_logo img{
-		display:block;
-		margin:0 auto;}
-	
-	footer ul{margin-left:0;}
-	footer ul li { display: inline-block;}	
-	footer ul li:first-child, 
-	footer li:first-child a {margin-left: 0;}
-	
-/* Social Media List */
-	
-	ul.footer_social {
-		margin-bottom: 30px;
-		 text-align: center;}
-		 
-/* Slider */		 
-		 .owl-controls{width:100%;}
-		 .owl-arrow{
-		 	 position: absolute;
-		 	 top: 45%;
-		  	z-index:1;}
-		 	.owl-prev{left: 0;} 
-		 	.owl-next{right: 0;} 	
-
-		
-/* Footer Nav */
-.footer_nav ul{
-	margin-bottom:40px;
-	text-align:center;}
-	
-.footer_nav  ul li {margin: 0 0 10px 20px;}	
-.footer_nav ul li a {
-		    color: #888;
-			font-family: 'Montserrat', sans-serif;
-		    font-size: .9rem;
-		    font-weight: 400;
-		    line-height: 1;
-		    text-transform: uppercase;}
-
-.footer_nav ul li a:hover,
-.footer_nav ul li a:active{color:#fff;}
-	
-/*Copyright */
-	
-.footer_bottom{
-	    background: #000;
-	    padding: 20px 0;
-		text-align: center;}	
-
-.footer_bottom p {
-    color: #777;
-	font-family: 'Montserrat', sans-serif;
-    font-size: .9rem;
-    font-weight: 400;
-    line-height: 1.4;
-}
-
-#mvp-fly-soc-wrap span{
-	color:#555;
-    display: block;
-	font-family: 'Montserrat', sans-serif;
-    font-size: .7rem;
-    font-weight: 400;
-    line-height: 1;
-    margin-bottom: 15px;
-	text-align:center;
-    text-transform: uppercase;}
-#responsive-menu-additional-content .social_links {text-align:center;}
-#responsive-menu-additional-content .social_links li a{line-height:40px;}	
-
-/* FAQ */
-#faq ul{
-	border-top:none;
-	list-style-type:none;
-	
-}	
-.question{
-	background-color:#333;
-	border-top:1px solid #444;
-	clear:both;
-	color:#f1f1f1;
-	font-family: 'Montserrat', sans-serif;
-	font-weight:300;
-	margin:0;
-	padding: 10px;
-	text-transform:uppercase;}
-	.question i{color:#f1f1f1;}
-	.question.expanded,
-	.question.expanded i{color:#ed1c24;}
-	.question.expanded{background-color:#fff;}
-	.question.expanded i{transform: rotate(90deg);}
-
-.answer{
-	background-color:#fff;
-	border-top:1px solid #f1f1f1;
-	color:#8e97ac;
-	padding: 20px 20px 20px 30px;}
-	
-/* RED CTA  */
-	.red_cta{
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed1c24+0,bf151b+100 */
-		background: #ed1c24; /* Old browsers */
-		background: -moz-linear-gradient(left, #ed1c24 0%, #bf151b 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(left, #ed1c24 0%,#bf151b 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to right, #ed1c24 0%,#bf151b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed1c24', endColorstr='#bf151b',GradientType=1 ); /* IE6-9 */
-		color:#fff;
-	}
-			
-	.red_cta .display-1{
-		margin-bottom:0;
-		text-align:center;}
-	.red_cta .display-1 a{
-		color:#fff;
-		cursor:pointer;
-		display:block;
-		width:100%;
-	}
-		.red_cta .display-1 a img{display:inline-block;}
-	
-	#perks .services-list .service-item h3{color: #ed1c24;}
-	#perks .perk_name{
-		font-weight:700;
-		margin-bottom:0;}
-		#perks .services-list .service-icon{color:#222;}
-		
-	/* Count Down */
-	
-	.countdown .icp-countdown{margin:0 0 0 7rem;}	
-	/* FORMS 
-	**********************************/		
-
-	button,
-	.button{
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cc0000+0,c20f16+100 */
-		background: #cc0000; /* Old browsers */
-		background: -moz-linear-gradient(top, #cc0000 0%, #c20f16 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, #cc0000 0%,#c20f16 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom, #cc0000 0%,#c20f16 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#c20f16',GradientType=0 ); /* IE6-9 */
-	    color: #fff;
-		display: inline-block;
-	    border: 1px solid #c20f16;
-	    -webkit-border-radius: 0px;
-	    -moz-border-radius: 0px;
-	    border-radius: 0px;
-		font-family: 'Montserrat', sans-serif;
-	    font-weight: bold;
-	    font-size: 1.1em;
-		padding: 0px 0px 0px 0px;
-		text-align:center;
-	    text-decoration: none;
-		text-transform: uppercase;
-		width: 7em;}
-		.prev_button{
-			background:#fff;
-			border:2px solid #ed1c24;
-			color:#ed1c24;}
-			.button.payment_method{
-				background:#fff;
-				border:2px solid #ed1c24;
-				color:#ed1c24;
-				width:100%;}
-
-	.form_buttons{
-		clear:both;
-		margin-bottom:30px;}	
-	
-		div[data-toggle="toggle"] {
-		  width: 50px !important;
-		  border-radius: 11px; }
-		  div[data-toggle="toggle"].btn-primary {
-		    text-shadow: 0 1px 0 #fff;
-		    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
-		    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-		    background-repeat: repeat-x;
-		    color: #333;
-		    background-color: #fff;
-		    border-color: #ccc; }
-		  div[data-toggle="toggle"].btn-primary:hover {
-		    border-color: #b0b0b0 !important; }
-		    div[data-toggle="toggle"].btn-primary:hover .toggle-group .btn-primary.toggle-on {
-		      background: #6de6d3;
-		      /* Old browsers */
-		      background: -moz-linear-gradient(left, #6de6d3 0%, #6bd2bf 100%);
-		      background: -webkit-linear-gradient(left, #6de6d3 0%, #6bd2bf 100%);
-		      background: linear-gradient(to right, #6de6d3 0%, #6bd2bf 100%);
-		      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6de6d3", endColorstr="#6bd2bf", GradientType=1); }
-		  div[data-toggle="toggle"] label.btn-default.active, div[data-toggle="toggle"] label.btn.active, div[data-toggle="toggle"] label.btn:active {
-		    text-shadow: none;
-		    -webkit-box-shadow: none !important;
-		    box-shadow: none !important;
-		    border: none; }
-		  div[data-toggle="toggle"] .toggle-group label.btn {
-		    font-size: 9px !important;
-		    font-weight: bold;
-		    text-transform: uppercase;
-		    padding-top: 3px;
-		    text-shadow: none;
-		    color: #666; }
-		    div[data-toggle="toggle"] .toggle-group label.btn.toggle-on {
-		      padding-left: 0;
-		      margin-left: -4px; }
-		    div[data-toggle="toggle"] .toggle-group label.btn.toggle-off {
-		      padding-right: 0;
-		      margin-right: -4px; }
-		  div[data-toggle="toggle"] .toggle-group span.toggle-handle {
-		    border-radius: 11px;
-		    width: 40px; }
-		    div[data-toggle="toggle"] .toggle-group span.toggle-handle.btn-default {
-		      border: none; }
-		  div[data-toggle="toggle"] .toggle-group .btn-primary.toggle-on {
-		    background: #6be0cd;
-		    /* Old browsers */
-		    background: -moz-linear-gradient(left, #6be0cd 0%, #66ccb9 100%);
-		    background: -webkit-linear-gradient(left, #6be0cd 0%, #66ccb9 100%);
-		    background: linear-gradient(to right, #6be0cd 0%, #66ccb9 100%);
-		    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6be0cd", endColorstr="#66ccb9", GradientType=1); }
-
-
-	.tooltip {
-	    position: relative;
-	    display: inline-block;
-	    opacity: 1;
-	}
-	.tooltip i{
-		background-color:#ec1c24;
-		-moz-border-radius:50%;
-		-webkit-border-radius:50%;
-		border-radius:50%;
-		color:#fff;
-		display:inline-block;
-		height:20px;
-		line-height:20px;
-		text-align:center;
-		width:20px;}	
-	.tooltip_container{
-	    display: none;
-	    position: absolute;
-	    left: 0;
-	    width: 16px;
-	    z-index: 9999;
-	}	
-
-	.tooltip_content{
-		background:#efefef;
-		-moz-border-radius:4px;
-		-webkit-border-radius:4px;
-		border-radius:4px;
-		color:#222;
-	    font-size: 14px;
-	    line-height: 21px;
-		padding:10px;
-		    min-width: 440px;}
-	.tooltip_content p{
-	    font-size: 14px;
-	    line-height: 21px;}
-	.tooltip_content ul{
-		list-style-type:disc;
-		margin-bottom:20px;
-		margin-left:10px;
-		margin--moz-border-radiustop:20px;}
-	.tooltip_content ul li{margin-left:10px;}	
-
-		/* Step 1 */
-
-
-		.register_new_user h2.create_title{margin-bottom:0;}	
-		.login_link{color:#ec1c24;}
-		.already_registered{padding-bottom:5px;}
-		.small{font-size:0.9rem}
-
-		.register_new_user label{
-			display:block;
-			font-weight:700;}
-			.register_new_user input[type=text],
-			.register_new_user input[type=password],
-			.register_new_user input[type=email],
-			.register_new_user select{
-				height:34px;
-				width:100%;}
-
-		.register_new_user .row{margin-bottom:20px;}		
-		.entity_type label{font-weight:400;}
-		.entity_phone,
-		.citizen_check{
-			border-bottom:1px solid #ddd;
-			padding-bottom:20px;}
-		.legal_disclaimer p{font-weight:bold;}	
-		.entity_type input{margin-right:10px;}
-		.register_new_user .please_confirm .row{margin-bottom:0;}
-
-	
-		/* Step 2 */
-
-			.form_agreement label{
-				display:block;
-				font-weight:700;}
-				.form_agreement th{text-align:left;}
-	
-			.auto_populate{
-				background:#dedede;
-				clear:both;
-				float:left;
-				margin-bottom:10px;
-				padding:10px 50px 30px 30px;}	
-			.auto_populate h4{margin:20px 0 0 0;}	
-	
-			.agreement_sign,	
-			.agreement_actions{
-				clear:both;
-				margin-bottom:30px;}	
-		
-			    @font-face {
-			      font-family: 'Sacramento';
-			      font-style: normal;
-			      font-weight: 400;
-			      src: local('Sacramento'), local('Sacramento-Regular'), url('https://s3.amazonaws.com/fundamerica/files/fonts/Sacramento.ttf') format('truetype');}
-
-			    .fa__signature { margin-top: 2em;}
-			    .fa__signature h1 { font-size: 1.25em; font-weight: bold; }
-			    .fa__signature h1:after { content: ":"; }
-			    .fa__signature h2 { font-size: 1em; font-weight: bold; }
-			    .fa__signature .fa__signature_data { border: 0; }
-			    .fa__signature .fa__signature_data th { border: 0; font-weight: bold; text-align: left; }
-			    .fa__signature .fa__signature_data th:after { content: ":"; }
-			    .fa__signature .fa__signature_data td { border: 0; font-weight: normal; text-align: left; vertical-align: bottom;}
-			    .fa__signature .fa__signed { font-family: 'Sacramento', cursive, fantasy; font-size: 2em; margin-top: 1em; text-decoration: underline; }
-			    .fa__signature .fa__blank_signature_data th, .fa__signature .fa__blank_signature_data td { padding-bottom: 1.5em }
-			    .fa__signature .fa__blank_signature_data td { padding-left: 1em }	
-				.form_agreement input[type=text],
-				.form_agreement select{
-					height:34px;
-					width:80%;}
-			
-				.form_agreement .btn-group button{
-					background-color:#fff;
-					border:1px solid #ed1c24;
-					color:#ed1c24;
-					margin-right:10px;
-					padding:0 10px;
-					min-width:7em;
-					width:auto;}	
-				.form_agreement .btn-group button:first-child{display:none;}
-				.form_agreement .btn-group button.active{
-					background-color:#ed1c24;
-					color:#fff;}	
-	
-		/* Step 3 */
-
-		.payment_forms label{
-			display:block;
-			font-weight:700;}
-		.payment_forms input[type=text]{
-			height:34px;
-			width:100%;}
-		.payment_forms .row{margin-bottom:20px;}	
-		.ach_form .radio{
-			display: inline-block;
-		    margin-right: 10px;
-			position:relative;}
-		.bank_success,
-		.bank_success i{color:green;}	
-	
-		/* Step 4 */
-			.success_message a{color:#ec1c24;}
-			.success_details{
-				border-bottom:1px solid #dedede;
-				border-top:1px solid #dedede;
-				margin-bottom:1.5em;
-				padding-bottom: 1.5em;}
-				.success_details ul {margin-left: 0;}
-			.success_details ul li{margin-bottom:12px;}	
-			.success_details label{
-				font-weight:700;
-			    margin-bottom: 0;
-			    line-height: 1;
-			}	
-			.checkbox label,
-			.radio label {
-			    min-height: 20px;
-			    padding-left: 20px;
-			    margin-bottom: 0;
-			    font-weight: 400;
-			    cursor: pointer;}
-	
-			.checkbox input[type=checkbox], 
-			.checkbox-inline input[type=checkbox], 
-			.radio input[type=radio], 
-			.radio-inline input[type=radio] {
-			    position: absolute;
-			    margin-top: 4px;
-			    margin-left: -20px;}	
-		
-		/* WIRE Success */		
-		.recipient_address span,
-		.bank_address span{display:block;}			
 
 
 		/* MEDIA QUERIES 

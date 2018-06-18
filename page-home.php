@@ -7,7 +7,7 @@ get_header();?>
     ================================================== -->
     <section id="home" class="s-home target-section" data-parallax="scroll" data-natural-width=3000 data-natural-height=2000 data-position-y=top  style="background:url(<?php the_post_thumbnail_url();?>);" class="v2">
 
-        <div class="shadow-overlay"></div>
+        <div class="shadow-overlay" id="top"></div>
 
         <div class="home-content">
 
@@ -487,7 +487,9 @@ get_header();?>
 
     
 
-
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
     
 
     </section> <!-- end s-contact -->
