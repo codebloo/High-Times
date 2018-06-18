@@ -1397,6 +1397,7 @@ header{
 	    padding-top: 10px;
 	    text-align: center;
 	    width: 40px;}
+		header ul.social_links li{font-size:24px;}
 		
 .fa-facebook:hover{background:#3b5997;}
 .fa-twitter:hover{background:#00aced;}
