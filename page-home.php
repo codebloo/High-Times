@@ -86,7 +86,12 @@ get_header();?>
 	<section class="red_cta">
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
-                <h1 class="display-1"><a href="">Get High with us!</a></h1>
+                <h1 class="display-1">
+					<a href="">
+						<img src="http://www.placehold.it/400x150.jpg" class="cta_logo" />
+						<img src="http://www.placehold.it/400x150.jpg" class="cta_text"/>
+					</a>
+				</h1>
             </div>
         </div> <!-- end section-header -->
 	</section>

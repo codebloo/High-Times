@@ -2279,6 +2279,8 @@ html.no-csstransitions .home-content__main {
     left: 0;
     top: 0;
   }
+  
+ .countdown .icp-countdown{margin-left:0;} 
 
   .home-content__main {
     width: auto;
@@ -3695,6 +3697,7 @@ html.no-csstransitions .home-content__main {
 		display:block;
 		width:100%;
 	}
+		.red_cta .display-1 a img{display:inline-block;}
 	
 	#perks .services-list .service-item h3{color: #ed1c24;}
 	#perks .perk_name{
