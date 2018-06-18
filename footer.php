@@ -17,14 +17,14 @@
 		<div class="row">
 			<div class="col-12 col-twelve">
 				<ul class="footer_social social_links">
-					<li><a href="https://www.facebook.com/HighTimesMag/" target="_blank" class="fab fa-facebook-f"></a></li>
-					<li><a href="https://twitter.com/High_Times_Mag" target="_blank" class="fab fa-twitter"></a></li>
-					<li><a href="https://www.pinterest.com/hightimesmag/" target="_blank" class="fab fa-pinterest-p"></a></li>
-					<li><a href="https://www.instagram.com/hightimesmagazine/" target="_blank" class="fab fa-instagram"></a></li>
-					<li><a href="https://plus.google.com/+hightimes" target="_blank" class="fab fa-google-plus"></a></li>
-					<li><a href="https://www.youtube.com/hightimes" target="_blank" class="fab fa-youtube"></a></li>
-					<li><a href="https://www.linkedin.com/company/high-times" target="_blank" class="fab fa-linkedin "></a></li>
-					<li><a href="https://hightimesmag.tumblr.com/" target="_blank" class="fab fa-tumblr"></a></li>
+					<li><a href="https://www.facebook.com/HighTimesMag/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://twitter.com/High_Times_Mag" target="_blank" ><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://www.pinterest.com/hightimesmag/" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+					<li><a href="https://www.instagram.com/hightimesmagazine/" target="_blank" ><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://plus.google.com/+hightimes" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+					<li><a href="https://www.youtube.com/hightimes" target="_blank" ><i class="fab fa-youtube"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/high-times" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://hightimesmag.tumblr.com/" target="_blank"><i class="fab fa-tumblr"></i></a></li>
 				</ul>
 			</div>	
 		</div>
