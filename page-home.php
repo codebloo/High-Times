@@ -18,10 +18,12 @@ get_header();?>
 				<span class="red"><?php the_field('headline_line_3');?></span>
                 </h1>
 
-                <p>
-               It's history in the making. <br>
-               Own your stake.
-                </p>
+                <p> <?php the_field('tagline_bold');?></strong> <?php the_field('tagline_regular');?></p>
+				
+				<div class="video-container">
+					<iframe src="https://player.vimeo.com/video/<?php the_field('hero_video_id');?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+				
 				<section class="countdown">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>	
 						<?php the_content();?>
@@ -39,10 +41,7 @@ get_header();?>
             <li><a  class="smoothscroll" href="#faq">FAQ<span>your questions</span></a></li>
         </ul> <!-- end home-sidelinks -->
 
-        <ul class="home-social">
-			<li><strong><?php the_field('tagline_bold');?></strong> <?php the_field('tagline_regular');?> </li>
-           
-        </ul> <!-- end home-social -->
+       
 
         <a href="#history" class="home-scroll smoothscroll">
             <span class="home-scroll__text">Scroll Down</span>
